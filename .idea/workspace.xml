@@ -1,95 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6384fe42-050f-4947-a435-fab6e29fc931" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01/02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/axios-api/API.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/axios-api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/axios-api/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/axios-api/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/axios-api/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax_test/src/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax_test/src/api/instance/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax_test/src/api/instance/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax_test/src/api/instance/index1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax_test/src/api/util/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax_test/src/components/card/card.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax_test/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/public/static/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/common/extends.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/common/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/common/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/common/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/common/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/common/fonts/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/common/icon.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/common/mix.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/line/lines.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/decrease_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/decrease_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/discount_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/discount_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/guarantee_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/guarantee_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/invoice_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/invoice_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/special_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/list/special_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/brand@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/brand@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/bulletin@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/bulletin@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/decrease_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/decrease_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/discount_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/discount_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/guarantee_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/guarantee_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/invoice_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/invoice_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/shell-header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/special_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/shee-header/special_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star24_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star24_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star24_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star24_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star24_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star24_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star36_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star36_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star36_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star36_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star36_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star36_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star48_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star48_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star48_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star48_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star48_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/star48_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/components/starts/starts.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/mork/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/mork/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/pages/appraise/appraise.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/pages/goods/goods.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/pages/shops/shops.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/take-out/src/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/01.html" beforeDir="false" afterPath="$PROJECT_DIR$/01/01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/take-out" beforeDir="false" afterPath="$PROJECT_DIR$/take-out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/take-out/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/take-out/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/take-out/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/take-out/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/take-out/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/take-out/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/take-out/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/take-out/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/take-out/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/take-out/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/take-out/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/take-out/src/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="6384fe42-050f-4947-a435-fab6e29fc931" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -186,7 +98,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/take-out/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state>
               <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
@@ -260,11 +172,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="198" />
-    <option name="y" value="15" />
-    <option name="width" value="1200" />
-    <option name="height" value="810" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-27" />
+    <option name="y" value="190" />
+    <option name="width" value="980" />
+    <option name="height" value="615" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -377,12 +289,20 @@
       <workItem from="1568872389489" duration="3149000" />
       <workItem from="1568887079006" duration="56000" />
       <workItem from="1568892692289" duration="9922000" />
-      <workItem from="1568939880518" duration="814000" />
+      <workItem from="1568939880518" duration="1914000" />
     </task>
+    <task id="LOCAL-00001" summary="完成头部的页面勾画">
+      <created>1568940732323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568940732323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98784000" />
+    <option name="totallyTimeSpent" value="99884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,10 +314,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17474186" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17474186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -410,7 +329,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.6625222" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1793961" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -481,6 +400,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成头部的页面勾画" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成头部的页面勾画" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/take-out/src/components/shee-header/discount_1@3x.png">
@@ -781,7 +704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/take-out/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state>
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
