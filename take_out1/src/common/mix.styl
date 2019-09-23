@@ -1,0 +1,22 @@
+bg-img($brand)
+  background-size 100% 100%
+  @media screen and (-webkit-device-pixel-ratio:2)
+    background-image url(./stars/$brand +"@2x.png")
+  @media screen and (-webkit-device-pixel-ratio:3)
+    background-image url(./stars/$brand + "@3x.png")
+
+min-line($bg)
+  position relative
+  &:after
+    content ""
+    width 100%
+    display block
+    height 1px
+    position absolute
+    bottom 0
+    left 0
+    background $bg
+    @media screen and (-webkit-device-pixel-ratio:2)
+      transform scaleY(.5)
+    @media screen and (-webkit-device-pixel-ratio:3)
+      transform scaleY(.3333333333333333333333333333333333)
