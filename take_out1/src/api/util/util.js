@@ -11,14 +11,14 @@
     }
 */
 export default  (apiObjs,axiosInsatnce) => {
-    const Http ={}
+    const Http ={};
     for (name in apiObjs) {
-        let {url,method,isForm,corsUrl} = apiObjs[name]
+        let {url,method,isForm,corsUrl,needToken} = apiObjs[name];
         Http[name] = async (data,config={})=>{
             //请求携带数据的转换
             let transformData = {};
             if(data&&isForm){
-                transformData = new FormData()
+                transformData = new FormData();
                 for (let key in data){
                     transformData.append(key,data[key])
                 }
@@ -26,9 +26,9 @@ export default  (apiObjs,axiosInsatnce) => {
                 transformData = data
             }
             if(corsUrl){
-                url = (corsUrl+url)
+                url = (corsUrl+url);
                 corsUrl=""
-            };
+            }
            
             // console.log(url);
             //发请求
@@ -36,16 +36,23 @@ export default  (apiObjs,axiosInsatnce) => {
             if (method === "get" || method === "delete"){
                 transformData = (typeof transformData) !== "object" ? {} : transformData;
                 config.params = (typeof config.params) !== "object" ? {} : config.params;
+                // console.log(config);
                 let params = Object.assign(transformData,config.params);
+                // {
+                //     headers:{Authorization:state.token}
+                // }
                 try{
-                    res = await axiosInsatnce({url, method, params})
-                    res = Promise.resolve(res)
+                    config = Object.assign(config,{url,method,params,headers:{needToken}})
+                    // config = Object.assign(config,{url, method, params})
+                    res = await axiosInsatnce(config);
+                    res = Promise.resolve(res)  //可有可无
                 }catch (e) {
                     res = Promise.reject(e)
                 }
             }else if(method === "post" || method === "put"){
                 try{
-                    res = await axiosInsatnce({url, method, data:transformData})
+                    config = Object.assign(config,{url, method, data:transformData,headers:{needToken}})
+                    res = await axiosInsatnce({url, method, data:transformData});
                     res = Promise.resolve(res)
                 }catch (e) {
                     res = Promise.reject(e)

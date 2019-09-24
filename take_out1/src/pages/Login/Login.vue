@@ -53,7 +53,7 @@
                                     <input type="text" maxlength="11" placeholder="验证码"
                                            v-model="captcha" name="captcha" v-validate="{required: true,regex: /^[0-9a-zA-Z]{4}$/}">
                                     <span style="color: red;" v-show="errors.has('captcha')">{{ errors.first('captcha') }}</span>
-                                    <img class="get_verification" src="./images/captcha.svg" alt="captcha">
+                                    <img class="get_verification" src="http://localhost:4000/captcha" alt="captcha" @click="getImg" ref="getIamge">
                                 </section>
                             </section>
                         </div>
@@ -71,6 +71,7 @@
 </template>
 
 <script>
+    import {mapActions} from "vuex"
   export default {
     name: "Login",
     data(){
@@ -87,7 +88,15 @@
       }
     },
     methods:{
-      handC(){
+      //注册一把登录的请求
+      ...mapActions(["userLogin"]),
+      //点击验证码更新验证码
+      getImg(){
+        // console.log(this.$refs.getIamge.src);
+        // this.$refs.getIamge.src=`http://localhost:4000/captcha?time=${Date.now()}`
+        this.$refs.getIamge.src=`http://localhost:4000/captcha?time=${Date.now()}`
+      },
+      async handC(){
        this.times = 10;
         const timer = setInterval(()=>{
           this.times --;
@@ -95,6 +104,12 @@
             clearInterval(timer)
           }
         },1000)
+       // 点击后要发送请求，获取短信验证码
+       const res=await this.$http.login.getIdentifyingCode({
+          phone:this.phone
+        })
+       //此时发送验证码成功后times要为0,方便可以点击
+       (res.code===0)&&(this.times=0)
         // console.log(this.times);
       },
       async Submission(){
@@ -102,10 +117,13 @@
         if(this.flag){
           //短信登录
           const success = await this.$validator.validateAll(["phone","code"])
-          console.log(success)
+          this.userLogin({flag:this.flag,data:{phone:this.phone,code:this.code}})
         }else{
+          //用户名登录
           const success = await this.$validator.validateAll(["name","pwd","captcha"])
-          console.log(success)
+
+          //点击发送用户名登录的请求
+            this.userLogin({flag:this.flag,data:{name:this.name,pwd:this.pwd,captcha:this.captcha},updateImage:this.getImg})
         }
       }
     },

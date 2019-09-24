@@ -1,4 +1,4 @@
-import {GETADRESS,GETSHOPLIST,GETCATEGORY} from "./mution_types"
+import {GETADRESS,GETSHOPLIST,GETCATEGORY,GETUSER,AUTOLOGIN,SIGNOUT} from "./mution_types"
 
 export default {
     [GETADRESS](state,adrss){
@@ -11,6 +11,20 @@ export default {
   [GETCATEGORY](state,foodList){
     // console.log(shopList)
     state.foodList =foodList
-  }
+  },
+  [GETUSER](state,userInfo){
+    state.userInfo =userInfo
+    state.token=userInfo.token
+    localStorage.setItem("storgeToken",userInfo.token)
+    // console.log(state.token);
+  },
+  [AUTOLOGIN](state,userInfo){
+      state.userInfo=userInfo
+  },
+  [SIGNOUT](state){
+    state.userInfo={}
+    state.token=""
+    localStorage.removeItem("storgeToken")
+  },
 }
 
